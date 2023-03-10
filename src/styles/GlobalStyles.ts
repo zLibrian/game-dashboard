@@ -8,7 +8,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: #f0f0f5;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
     color: #312e38;
     -webkit-font-smoothing: antialiased;
   }
