@@ -18,8 +18,8 @@ export const Theme: DefaultTheme = {
   },
 
   fontSizes: {
-    small: '1rem',
-    medium: '1.25rem',
-    large: '2.75rem',
+    small: '0.875rem',
+    medium: '1rem',
+    large: '1.25rem',
   },
 };
