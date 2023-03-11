@@ -4,10 +4,10 @@ export const StyledInputContainer = styled.label`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.25rem;
+  border-radius: 0.625rem;
   padding: 0.5rem;
   width: 100%;
-  max-width: 20rem;
+  max-width: 17rem;
 
   background-color: ${({ theme }) => theme.colors.gray};
 `;
