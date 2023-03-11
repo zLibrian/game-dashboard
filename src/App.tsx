@@ -1,10 +1,12 @@
-function App() {
+import Layout from './Pages/Layout';
+import { Routes } from './routes';
 
+function App() {
   return (
-    <div >
-      Game Dashboard
-    </div>
-  )
+    <Layout>
+      <Routes />
+    </Layout>
+  );
 }
 
-export default App
+export default App;

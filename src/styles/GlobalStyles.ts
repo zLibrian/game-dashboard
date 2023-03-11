@@ -2,19 +2,26 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   * {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
     padding: 0;
-    margin:0;
-    box-sizing:border-box;
+  }
+
+  :root {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #000000;
-    color: #312e38;
+    background: radial-gradient(50% 57% at 50% 38%, #350505 6.5%, #000000 100%);
+    margin: 0 auto;
+    color: ${({ theme }) => theme.colors.white};
+    max-width: 1440px;
     -webkit-font-smoothing: antialiased;
   }
 
-  button{
+  button {
     cursor: pointer;
   }
 `;

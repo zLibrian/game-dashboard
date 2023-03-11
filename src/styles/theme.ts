@@ -3,7 +3,7 @@ import { DefaultTheme } from 'styled-components';
 export const Theme: DefaultTheme = {
   colors: {
     white: '#FFFFFF',
-    gray: '#F7FAFC',
+    gray: '#d9d9d933',
 
     red: '#F56565',
     blue: '#0F81EC',
@@ -18,8 +18,8 @@ export const Theme: DefaultTheme = {
   },
 
   fontSizes: {
-    small: '1rem',
-    medium: '1.25rem',
-    large: '2.75rem',
+    small: '0.875rem',
+    medium: '1rem',
+    large: '1.25rem',
   },
 };
