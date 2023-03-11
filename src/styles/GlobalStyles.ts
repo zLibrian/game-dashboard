@@ -2,22 +2,26 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   * {
-    padding: 0;
-    margin:0;
+    box-sizing: border-box;
+    margin: 0;
     outline: 0;
-    box-sizing:border-box;
+    padding: 0;
+  }
+
+  :root {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
-    max-width: 1440px;
+    background: radial-gradient(50% 57% at 50% 38%, #350505 6.5%, #000000 100%);
     margin: 0 auto;
-    background: radial-gradient(57.96% 57% at 51% 42%, #350505 6.53%, #000000 100%);
     color: ${({ theme }) => theme.colors.white};
+    max-width: 1440px;
     -webkit-font-smoothing: antialiased;
   }
 
-  button{
+  button {
     cursor: pointer;
   }
 `;
