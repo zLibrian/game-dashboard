@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-    height: 100vh;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
   }
 
