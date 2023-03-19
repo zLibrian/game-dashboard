@@ -1,31 +1,20 @@
+import { MainBanner } from '../../components/MainBanner';
+import { StyledHome } from './styles';
+
 export default function Home() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '1rem',
-      }}>
+    <StyledHome>
+      <MainBanner />
       <div
         style={{
-          height: '225px',
-          width: '100%',
-          backgroundColor: 'blue',
-        }}></div>
-      <div
-        style={{
-          height: '150px',
-          width: '100%',
           backgroundColor: 'red',
+          gridArea: 'most-played',
         }}></div>
       <div
         style={{
-          height: '225px',
-          width: '100%',
           backgroundColor: 'green',
+          gridArea: 'my-games',
         }}></div>
-    </div>
+    </StyledHome>
   );
 }
