@@ -1,15 +1,12 @@
 import { MainBanner } from '../../components/MainBanner';
+import { MostPlayed } from '../../components/MostPlayed';
 import { StyledHome } from './styles';
 
 export default function Home() {
   return (
     <StyledHome>
       <MainBanner />
-      <div
-        style={{
-          backgroundColor: 'red',
-          gridArea: 'most-played',
-        }}></div>
+      <MostPlayed />
       <div
         style={{
           backgroundColor: 'green',
