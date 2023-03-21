@@ -1,6 +1,8 @@
 import { AiOutlineSend } from 'react-icons/ai';
 import { CgPhone } from 'react-icons/cg';
-import avatar from '../../assets/avatar.png';
+import evelynIcon from '../../assets/evelynIcon.jpg';
+import ezrealIcon from '../../assets/ezrealIcon.jpg';
+import katarinaIcon from '../../assets/katarinaIcon.jpg';
 import { Avatar } from '../Avatar';
 import { Input } from '../Input';
 import {
@@ -19,23 +21,23 @@ export const RightAside = () => {
           <h4>ONLINE</h4>
           <StyledFrindsList>
             <li>
-              <Avatar src={avatar} alt="Friend avatar" />
+              <Avatar src={evelynIcon} alt="Friend avatar" />
               <div>
-                <p>John Doe</p>
+                <p>Evelyn Pastora</p>
                 <span>Playing LoL</span>
               </div>
             </li>
             <li>
-              <Avatar src={avatar} alt="Friend avatar" />
+              <Avatar src={ezrealIcon} alt="Friend avatar" />
               <div>
-                <p>John Doe</p>
+                <p>Ez</p>
                 <span>Playing MWII</span>
               </div>
             </li>
             <li>
-              <Avatar src={avatar} alt="Friend avatar" />
+              <Avatar src={katarinaIcon} alt="Friend avatar" />
               <div>
-                <p>John Doe</p>
+                <p>MainYasuo</p>
                 <span>Idle</span>
               </div>
             </li>
@@ -46,23 +48,23 @@ export const RightAside = () => {
           <StyledFrindsList>
             <h4>OFFLINE</h4>
             <li>
-              <Avatar src={avatar} alt="Friend avatar" />
+              <Avatar src={evelynIcon} alt="Friend avatar" />
               <div>
-                <p>John Doe</p>
+                <p>Duo Dela</p>
                 <span>Away</span>
               </div>
             </li>
             <li>
-              <Avatar src={avatar} alt="Friend avatar" />
+              <Avatar src={evelynIcon} alt="Friend avatar" />
               <div>
-                <p>John Doe</p>
+                <p>Duo Dele</p>
                 <span>Away</span>
               </div>
             </li>
             <li>
-              <Avatar src={avatar} alt="Friend avatar" />
+              <Avatar src={ezrealIcon} alt="Friend avatar" />
               <div>
-                <p>John Doe</p>
+                <p>|Nix</p>
                 <span>Away</span>
               </div>
             </li>
