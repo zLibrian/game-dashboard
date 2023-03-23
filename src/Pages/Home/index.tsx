@@ -7,11 +7,7 @@ export default function Home() {
     <StyledHome>
       <MainBanner />
       <MostPlayed />
-      <div
-        style={{
-          backgroundColor: 'green',
-          gridArea: 'my-games',
-        }}></div>
+      <MostPlayed />
     </StyledHome>
   );
 }
